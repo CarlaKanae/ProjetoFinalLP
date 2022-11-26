@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1669453669 source:c:\users\user\desktop\projeto controle contas bancarias\projetocontabancaria\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"conta.h"
+	<string.h>
+
+1669420416 c:\users\user\desktop\projeto controle contas bancarias\projetocontabancaria\conta.h
+
+1669453924 source:c:\users\user\desktop\projeto controle contas bancarias\projetocontabancaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conta.h"
+	<locale.h>
+
