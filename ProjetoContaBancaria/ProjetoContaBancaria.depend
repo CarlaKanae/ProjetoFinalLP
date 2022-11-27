@@ -13,3 +13,17 @@
 	"conta.h"
 	<locale.h>
 
+1669514360 source:c:\users\user\desktop\projeto controle contas bancarias\projetofinallp\projetocontabancaria\conta.c
+	<stdio.h>
+	<stdlib.h>
+	"conta.h"
+	<string.h>
+
+1669513675 c:\users\user\desktop\projeto controle contas bancarias\projetofinallp\projetocontabancaria\conta.h
+
+1669513999 source:c:\users\user\desktop\projeto controle contas bancarias\projetofinallp\projetocontabancaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conta.h"
+	<locale.h>
+

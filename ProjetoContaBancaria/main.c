@@ -17,6 +17,7 @@ int main()
     {
         system("cls"); //Limpa a tela
         printf("\n\n");
+        printf("\t--------------------------------\n");
         printf("\tMenu Principal - Conta Bancária \n");
         printf("\t--------------------------------\n");
         printf("\t1 - Inserir. \n");
@@ -28,7 +29,7 @@ int main()
         printf("\t7 - Imprimir. \n");
         printf("\t8 - Saldo Geral. \n");
         printf("\t0 - Sair. \n");
-        printf("\t--------------------------------\n");
+        printf("\t--------------------------------\n\n");
         printf("\tDigite uma opção: ");
         scanf("%d", &opcao);
         printf("\n");
@@ -51,7 +52,6 @@ int main()
             case 4:
                 system("cls");
                 listarConta(vConta, p);
-                system("pause");
                 break;
             case 5:
                 system("cls");
@@ -64,7 +64,6 @@ int main()
             case 7:
                 system("cls");
                 procurarConta(vConta,p);
-                system("pause");
                 break;
             case 8:
                 system("cls");
@@ -72,11 +71,11 @@ int main()
                 break;
             case 0:
                 system("cls");
-                 printf("\t Fim do Programa!! \n");
+                printf("\t Fim do Programa!! \n");
                 break;
             default:
                 system("cls");
-                printf("Opção Inválida! \n");
+                printf("\tOpção Inválida! \n");
         }
     }
     while(opcao != 0);
